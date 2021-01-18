@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-self: auto;
+    align-items: center;
+    height: 60px;
+}
+
+li {
+    display: inline-block;
+    padding: 20px;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.836);
+}
+
+h1 {
+    font-size: 30px;
+    color: rgb(255, 255, 0);
+}
+
+li {
+    color: rgb(255, 255, 0);
+}
+
+strong {
+    color: white;
+}
+
+.box {
+    border: rgba(0, 0, 0, 0.068) 1px solid;
+    width: 20%;
+    height: 40%;
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+}
+
+.queroMargin {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 40em;
+    flex-wrap: wrap;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.068);
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.836);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+    padding-right: 2%;
+    padding-left: 2%;
+}
